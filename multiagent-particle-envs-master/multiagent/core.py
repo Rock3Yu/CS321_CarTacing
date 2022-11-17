@@ -1,6 +1,6 @@
 import numpy as np
 
-# physical/external base state of all entites
+# physical/external base state of all entities
 class EntityState(object):
     def __init__(self):
         # physical position
