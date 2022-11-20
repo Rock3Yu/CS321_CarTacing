@@ -17,7 +17,7 @@ class MADDPG_Policy:
         self.critics_target = [None] * self.num_agent
         self.optimizer_critics = [None] * self.num_agent
         self.optimizer_actors = [None] * self.num_agent
-        self.memory = self.Memory(int(1e3))s
+        self.memory = self.Memory(int(1e3))
         self.tao = .01
         self.gamma = .97
 
